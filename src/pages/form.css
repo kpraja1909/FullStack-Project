@@ -1,0 +1,36 @@
+.background {
+    background-image: url('/public/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.background::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.498);
+    z-index: 0;
+}
+
+.card{
+    background-color: #060606c3 !important;
+}
+.form-control {
+    background-color: rgba(24, 24, 24, 0.436);
+    border: 1px solid #ccc; 
+}
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: #ffffff; 
+    outline: none; 
+}
+.form-control::placeholder {
+    color: #888;
+    opacity: 1; 
+}
