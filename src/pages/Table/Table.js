@@ -1,11 +1,12 @@
 import React from 'react'
-import "./table.css";
+import style from "./table.module.css";
 
 function Table() {
   return (
  <>
- <div className='container table-margin'>
- <table class="table">
+<div className={style.table} >
+<div className={`${style.tablemargin} container-fluid ${style.background}`}>
+ <table className="table">
   <thead>
     <tr>
       <th scope="col">Index</th>
@@ -140,6 +141,7 @@ function Table() {
   </tbody>
 </table>
  </div>
+</div>
  </>
   )
 }

@@ -6,7 +6,6 @@
     width: 100%;
     height: 100%;
     position: relative;
-    z-index: -2;
 }
 .background::before{
     content: "";
@@ -15,23 +14,25 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color:rgba(0, 0, 0, 0.744);
-    z-index: -1;
+    background-color:rgba(0, 0, 0, 0.646);
+    z-index: 0;
 }
 
 .card{
     background-color: #060606c3 !important;
+    z-index: 1;
+    
 }
-.form-control {
+.formcontrol {
     background-color: rgba(24, 24, 24, 0.436);
     border: 1px solid #ccc; 
 }
-.form-control:focus {
-    background-color: rgba(255, 255, 255, 0.7);
+.formcontrol:focus {
+    background-color: rgba(0, 0, 0, 0.379);
     border-color: #ffffff; 
     outline: none; 
 }
-.form-control::placeholder {
-    color: #888;
+.formcontrol::placeholder {
+    color: #ffffff;
     opacity: 1; 
 }
