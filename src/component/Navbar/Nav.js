@@ -4,7 +4,7 @@ import './Nav.css'
 
 function Nav() {
   return (
-    <nav className='navbar navbar-expand-lg nav-color'>
+    <nav className='navbar navbar-expand-lg nav-color mb-4'>
       <Link to="/" className='navbar-brand nav-txt'>FULLSTACK PROJECT</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

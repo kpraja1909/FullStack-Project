@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from "./pages/Home";
-import Edit from "./pages/Edit";
-import Table from "./pages/Table";
-import Form from "./pages/Form"
-import Nav from './component/Nav';
+import Home from "./pages/Home/Home.js";
+import Edit from "./pages/Edit/Edit.js";
+import Table from "./pages/Table/Table.js";
+import Form from "./pages/Form/Form.js"
+import Nav from './component/Navbar/Nav.js';
 
 function App() {
   return (

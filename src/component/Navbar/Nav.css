@@ -1,0 +1,19 @@
+.nav-color{
+    background-color:#222831;
+}
+.nav-txt{
+    color:#76ABAE;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1020;
+}
+.nav-link:hover{
+    color:#EEEEEE !important;
+}
+.nav-link:focus{
+    color:#EEEEEE !important;
+}
